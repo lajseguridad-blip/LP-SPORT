@@ -1,18 +1,37 @@
-/* LP SPORT portada oficial */
+/* LP SPORT portada oficial - responsive sin recortes */
 .hero{
-  height:min(78vh,860px);
-  min-height:620px;
-  background:#050505 url("WhatsApp%20Image%202026-10-04%20at%2017.15.05.jpeg") center center/contain no-repeat;
+  width:100%;
+  height:auto !important;
+  min-height:0 !important;
+  aspect-ratio:3 / 2;
+  background-color:#050505;
+  background-image:url("WhatsApp%20Image%202026-10-04%20at%2017.15.05.jpeg");
+  background-position:center center;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
   color:white;
-  display:flex;
-  align-items:flex-end;
+  display:block;
   position:relative;
+  overflow:hidden;
 }
-.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.16),transparent 38%,rgba(0,0,0,.08));pointer-events:none}
-.heroText{display:none}
+.hero:after{display:none !important}
+.heroText{display:none !important}
 @media(max-width:850px){
- .hero{height:72vh;min-height:520px;background-position:center center;background-size:contain}
+ .hero{
+   width:100%;
+   height:auto !important;
+   min-height:0 !important;
+   aspect-ratio:3 / 2;
+   background-size:100% 100%;
+   background-position:center center;
+ }
 }
 @media(max-width:520px){
- .hero{height:66vh;min-height:470px;background-size:contain;background-position:center center}
+ .hero{
+   height:auto !important;
+   min-height:0 !important;
+   aspect-ratio:3 / 2;
+   background-size:100% 100%;
+   background-position:center center;
+ }
 }
