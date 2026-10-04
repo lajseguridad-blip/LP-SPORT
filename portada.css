@@ -36,8 +36,8 @@
  }
 }
 
-.heroLinks{position:absolute;inset:0;z-index:5;pointer-events:none}
-.heroLinks .hl{position:absolute;top:4%;height:8%;display:block;pointer-events:auto;background:transparent}
+.heroLinks{position:absolute;left:0;top:0;width:100%;height:100%;z-index:999;pointer-events:none}
+.heroLinks .hl{position:absolute;display:block;pointer-events:auto!important;cursor:pointer;z-index:1000;top:3%;height:12%;}
 .heroLinks .inicio{left:25%;width:5.5%}
 .heroLinks .hombre{left:31%;width:6.5%}
 .heroLinks .mujer{left:38%;width:5%}
@@ -47,3 +47,14 @@
 .heroLinks .contacto{left:66.5%;width:7.5%}
 .anchor-target{display:block;position:relative;top:-90px;visibility:hidden}
 @media(max-width:520px){.heroLinks .hl{top:3%;height:12%}}
+
+@media(max-width:850px){
+ .heroLinks .hl{top:2%;height:15%}
+ .heroLinks .inicio{left:24%;width:7%}
+ .heroLinks .hombre{left:30.5%;width:8%}
+ .heroLinks .mujer{left:38%;width:7%}
+ .heroLinks .ninos{left:44%;width:7%}
+ .heroLinks .colecciones{left:50%;width:10%}
+ .heroLinks .nosotros{left:59%;width:9%}
+ .heroLinks .contacto{left:67%;width:9%}
+}
