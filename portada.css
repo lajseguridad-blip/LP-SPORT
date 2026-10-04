@@ -35,3 +35,15 @@
    background-position:center center;
  }
 }
+
+.heroLinks{position:absolute;inset:0;z-index:5;pointer-events:none}
+.heroLinks .hl{position:absolute;top:4%;height:8%;display:block;pointer-events:auto;background:transparent}
+.heroLinks .inicio{left:25%;width:5.5%}
+.heroLinks .hombre{left:31%;width:6.5%}
+.heroLinks .mujer{left:38%;width:5%}
+.heroLinks .ninos{left:43.5%;width:5.5%}
+.heroLinks .colecciones{left:49.5%;width:9%}
+.heroLinks .nosotros{left:59%;width:7%}
+.heroLinks .contacto{left:66.5%;width:7.5%}
+.anchor-target{display:block;position:relative;top:-90px;visibility:hidden}
+@media(max-width:520px){.heroLinks .hl{top:3%;height:12%}}
