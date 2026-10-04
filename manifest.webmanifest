@@ -1,0 +1,18 @@
+{
+  "name": "LP SPORT",
+  "short_name": "LP SPORT",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "description": "Indumentaria deportiva LP SPORT",
+  "icons": [
+    {
+      "src": "lp-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
